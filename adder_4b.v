@@ -4,7 +4,7 @@ module adder_4b(
     input wire [3:0] B,
     input wire Cin,
     output wire [3:0] S, // For combinational Lodic using wire
-    output wire Cout	// Output depends only on the inputs, that's whythe  wire is used    
+    output wire Cout	// Output depends only on the inputs, that's why the  wire is used    
 );
             
     wire C1, C2, C3;
